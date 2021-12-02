@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;300;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+header .logo img {
+    width: 250px;
+}
+header ul li {
+    display: inline-block;
+    padding: 0.5em;
+}
+header ul li a {
+    color: #fff;
+    text-decoration: unset;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+}
+header ul li a:hover {
+    color: #333;
+    background: #fff;
+}
+
+
+.section-0 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.section-0 img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    object-fit: cover;
+}
+.section-0 .bg1 {
+    
+}
+.section-0 .bg2 {
+    
+}
+.section-0 .bg3 {
+    
+}
+.section-0 h1 {
+    color: #eef2f4;
+    position: absolute;
+    font-size: 5em;
+    top: 3em;
+    font-weight: bold;
+}
+.section-0 h2 {
+    color: #eef2f4;
+    position: absolute;
+    font-size: 2em;
+    top: 11em;
+    font-weight: bold;
+}
+.section-0 .btn {
+    position: absolute;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px 30px;
+    color: #fff;
+    z-index: 10;
+}
+
+.section-1 {
+    /* height: 100vh; */
+}
