@@ -46,6 +46,7 @@ header ul li a:hover {
     align-items: center;
     overflow: hidden;
     position: relative;
+    margin-bottom: 2em;
 }
 .section-0 img {
     position: absolute;
